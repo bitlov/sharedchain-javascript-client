@@ -1,0 +1,49 @@
+/* Global */
+
+body {
+    padding-top: 70px;
+}
+
+/* Header */
+
+.navbar {
+    border-radius:0px;
+}
+
+.navbar-branding {
+    padding:10px 0;
+}
+
+.navbar-brand img {
+    height:100%;
+    width:auto;
+}
+
+/* Sign Up */
+
+.login-wrapper {
+    background:#1ABC9C;
+    padding-top:200px;
+}
+
+.login-icon {
+    position:relative;
+    left:auto;
+    top:auto;
+    width:120px;
+    margin:0 auto;
+}
+
+.login-icon>h4 {
+    color:#fff;
+    font-size:24px;
+    line-height:38px;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+    .login-icon {        
+        text-align:center;
+    }
+}
